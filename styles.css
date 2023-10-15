@@ -1,0 +1,184 @@
+@media (min-width:992px)
+{
+    body {
+        background-color: rgb(229, 236, 234);
+    }
+    
+    .card {
+        background-color: rgb(237, 198, 159);
+        box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.2);
+        width: 35%;
+        margin-left: 27.5%;
+        padding: 5%;
+        margin-top: 3%;
+    }
+    
+    
+    .card button {
+        border: none;
+        outline: 0;
+        padding: 2%;
+        color: white;
+        background-color: #000;
+        cursor: pointer;
+        font-size: 100%;
+        margin-left: 25%;
+      }
+      
+    .card button:hover {
+        opacity: 0.7;
+      }
+    
+    input,select
+    {
+        border-radius: 6px;
+        width: 50%;
+        height: 30px;
+    }
+    
+    .label
+    {
+        font-size: 100%;
+    }
+
+    .convert
+    {
+        border-radius: 6px;
+        width: 60%;
+        height: 2rem;
+    }
+    
+    select,option
+    {
+        font-family: 'Exo 2', sans-serif;
+        font-size: medium;
+    }
+    
+    label,button{
+        font-family: 'Chivo', sans-serif;
+        font-size: large;
+        text-align: left;
+    }
+    
+    .sec
+    {
+        display: inline;
+        margin: auto;
+        max-height: 50%;
+    }
+    
+    .to
+    {
+        margin-left: 30%;
+    }
+    
+    .temp,.convert
+    {
+        margin-top: 2%;
+        margin-left: 9.5%;
+    }
+    
+    .form0
+    {
+        margin-left: 12.5%;
+    }
+
+    .head
+    {
+        font-family: 'Bebas Neue', sans-serif;
+        margin-top: 2.5%;
+        font-size: larger;  
+        text-align: center;
+    }
+
+}
+
+@media (max-width:992px)
+{
+    body {
+        background-color: rgb(229, 236, 234);
+    }
+    
+    .card {
+        background-color: rgb(237, 198, 159);
+        box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.2);
+        width: 35%;
+        margin-left: 25%;
+        padding: 5%;
+        padding-right: 9%;
+        margin-top: 15%;
+    }
+    
+    .card button {
+        border: none;
+        outline: 0;
+        padding: 2%;
+        color: white;
+        background-color: #000;
+        cursor: pointer;
+        font-size: 100%;
+        margin-left: 25%;
+      }
+      
+    .card button:hover {
+        opacity: 0.7;
+      }
+    
+    input,select
+    {
+        border-radius: 6px;
+        width: 90%;
+        height: 25px;
+        font-size: 10%;
+    }
+    
+    .label
+    {
+        font-size: 70%;
+        padding: 5%;
+    }
+
+    .convert
+    {
+
+        border-radius: 6px;
+        width: 80%;
+        height: 30px;
+    }
+    
+    select,option
+    {
+        font-family: 'Exo 2', sans-serif;
+        font-size: medium;
+    }
+    
+    label,button{
+        font-family: 'Chivo', sans-serif;
+        font-size: large;
+        text-align: left;
+    }
+    
+    .sec
+    {
+        display: inline;
+        margin: auto;
+        max-height: 50%;
+    }
+    
+    .to
+    {
+        margin-left: 30%;
+    }
+    
+    .temp,.convert
+    {
+        margin-top: 2%;
+        margin-left: 9.5%;
+    }
+    
+    .form0
+    {
+        margin-left: 12.5%;
+    }
+
+}
